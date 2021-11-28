@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webfonts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans&family=Poppins:wght@200;600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <div class="lang">
+            <a class="lang__link" href="/index.html/">ENG</a>
+        </div>
+        <div class="nav">
+            <ul class="nav__items">
+                <li class="nav__item">
+                    <a class="nav__link nav__link_after" href="#">Documentation </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link nav__link_before" href="#">Who's using</a>
+                </li>
+            </ul>
+        </div>
+        <div class="logo">
+            <a class="logo__link" href="#"> <img class="logo__img" src="img/company-logo-black.svg" alt="logo"><i class="fas fa-caret-left"></i></a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="intriduction">
+            <h2 class="introduction__title"><sup>1</sup>Introduction</h2>
+            <p class="introduction__p">
+                Welcome to the very start of your React Native journey! If you're looking for environment setup instructions, they've moved to <span class="underline">their own section</span>. Continue reading for an introduction to the documentation, Native Components, React, and more!
+            </p>
+        </div>
+        <div class="core__components">
+            <h2 class="core__tittle"><sup>2</sup>core components</h2>
+            <p class="core__p">
+                React Native is an open source framework for building Android and iOS applications using React and the app platform’s native capabiles. With React Native, you use JavaScript to access your platform’s APIs as well as to describe the appearance and behavior of your UI using React components: bundles of reusable, nestable code. You can learn more about React in the next section. But first, let’s cover how components work in React Native.
+            </p>
+        </div>
+        <div class="react__fundamentals">
+            <h2 class="react__title"><sup>3</sup>react fundamentals</h2>
+            <p class="react__p">
+                React Native runs on <span class="underline">React</span>, a popular open source library for building user interfaces with JavaScript. To make the most of React Native, it helps to understand React itself. This section can get you started or can serve as a refresher course.
+            </p>
+        </div>
+        <div class="react__list">
+            <p class="react__p">
+                We’re going to cover the core concepts behind React:
+            </p>
+            <ul class="react__li">
+                <li class="react__item">components. The rest of this introduction to React uses cats in its examples: friendly, approachable creatures that need names and a cafe to work in.
+                </li>
+                <li class="react__item">JSX. React and React Native use JSX, a syntax that lets you write elements inside JavaScript like so:<span class="text">Text</span>  Hello, I am your cat!<span class="text__end">Text</span>.
+                      The React docs have <span class="underline"> a comprehensive guide to JSX</span> you can refer to learn even more. Because JSX is JavaScript, you can use variables inside it. Here you are declaring a name for the cat, name, and embedding it with curly braces inside <span class="text">Text</span> .
+                </li>
+                <li class="react__item">props. Props is short for “properties”.
+                </li>
+                <li class="react__item">state. While you can think of props as arguments you use to configure how components render, state is like a component’s personal data storage. State is useful for handling data that changes over time or that comes from user interaction. State gives your components memory!
+                </li>
+            </ul>
+        </div>
+        <div class="handling">
+            <h2 class="handling__title"><sup>4</sup>Handling Text Input</h2>
+            <p class="handling__p">TextInput is a Core Component that allows the user to enter text. It has an onChangeText prop that takes a function to be called every time the text changed, and an onSubmitEditing prop that takes a function to be called when the text is submitted.
+            </p>
+            <p class="handling__example">For example, let's say that as the user types, you're translating their words into a different language. In this new language, every single word is written the same way: <img class="img__pizza" src="img/pizza.png">. So the sentence "Hello there Bob" would be translated as "<img class="img__pizza" src="img/pizza.png"><img class="img__pizza" src="img/pizza.png">".
+            </p>
+        </div>
+    </main>
+</body>
+</html>
