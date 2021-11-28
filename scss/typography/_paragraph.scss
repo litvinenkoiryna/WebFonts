@@ -1,0 +1,37 @@
+
+body {
+  /*font-size: 36px;
+  line-height: 48px;*/
+}
+p{
+  font-size: 36px;
+  line-height: 48px;
+  margin-top: 10px;
+}
+.underline {
+  text-decoration: underline;
+}
+.text::before{
+  content: "<";
+    }
+.text::after {
+  content: ">";
+}
+.text__end::before{
+  content: "</"
+}
+.text__end::after {
+  content: ">";
+}
+
+.react__list{
+  margin-top: 48px;
+  .__li{
+
+  }
+}
+
+.handling__example{
+  padding-top: 12px;
+}
+

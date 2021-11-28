@@ -1,0 +1,44 @@
+
+h2 {
+  font-size: 36px;
+  line-height: 48px;
+  text-transform: uppercase;
+  padding-left: 2px;
+  font-stretch: ultra-expanded;
+  letter-spacing: normal;
+  margin-bottom: 49px;
+
+  sup {
+    line-height: 180%;
+    padding-left: -1px;
+    padding-right: -4px;
+    vertical-align: Top;
+    font-size: 22px;
+
+    &::after {
+      content: " ";
+    }
+  }
+}
+
+.core__components{
+  margin-top: 94px;
+  .core__tittle{
+    letter-spacing: normal;
+  }
+}
+.react__fundamentals {
+  margin-top: 99px;
+  .react__title{
+    margin-left: 9px;
+  }
+}
+
+.handling__title{
+  margin-top: 93px;
+  margin-left:-5px;
+  margin-bottom: 49px;
+}
+h2.introduction__title {
+  letter-spacing: 2px;
+}

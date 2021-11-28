@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+scratch.scss
+.idea/
+.idea/.gitignore
+.idea/WebFonts.iml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/watcherTasks.xml
 
-</body>
-</html>
